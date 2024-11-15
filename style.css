@@ -82,7 +82,6 @@ main{
     display: flex;
     width: 100%;
     flex-direction: column;
-    justify-items: center;
     border-radius: 2rem;
     background-image: linear-gradient(rgba(0, 0, 0, 0.445), black);
 }
@@ -95,7 +94,6 @@ main{
 .caixa > .rules > ul{
     color: #fff;
     list-style: none;
-    justify-items: center;
     margin: 1rem 0 1rem 0;
     font-size: 2rem;
 }
@@ -145,6 +143,13 @@ nav > .menu > a > .fa-solid{
     nav{
         justify-content: space-around;
     }
+    nav > .menu > a > .fa-solid{
+        font-size: 0.5rem;
+        padding-top: 0.5rem;
+    } 
+    .caixa{
+        padding: 0;
+    }
     .caixa > div > p{
         font-size: 1rem;
     }
@@ -155,13 +160,13 @@ nav > .menu > a > .fa-solid{
         font-size: 2.5rem;
     }
     .caixa > .rules > ul{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .creditos > ul{
         display: flex;
         list-style: none;
         flex-direction: column;
-        align-items: center;
+        align-items: normal;
         gap: 1rem;
         padding: 0;
         width: 100%;
